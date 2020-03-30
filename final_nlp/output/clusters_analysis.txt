@@ -1,0 +1,520 @@
+>>>>> Prediction Cluster:9
+Cluster analysis for exp:999 and pred:9
+exp. accuracy = 0.5018610421836228
+pred. miss = 0.8704771053474224
+Cluster analysis for exp:11 and pred:9
+exp. accuracy = 0.39955357142857145
+pred. miss = 0.9140249759846302
+Cluster analysis for exp:99 and pred:9
+exp. accuracy = 0.43876567020250723
+pred. miss = 0.7086135126480948
+Cluster analysis for exp:6 and pred:9
+exp. accuracy = 0.37592867756315007
+pred. miss = 0.9189881524175473
+Cluster analysis for exp:9 and pred:9
+exp. accuracy = 0.41935483870967744
+pred. miss = 0.8647134165866154
+Cluster analysis for exp:3 and pred:9
+exp. accuracy = 0.3877349159248269
+pred. miss = 0.9372398334934358
+Cluster analysis for exp:10 and pred:9
+exp. accuracy = 0.4481707317073171
+pred. miss = 0.9764649375600384
+Cluster analysis for exp:8 and pred:9
+exp. accuracy = 0.43066884176182707
+pred. miss = 0.9577329490874159
+Cluster analysis for exp:2 and pred:9
+exp. accuracy = 0.4074074074074074
+pred. miss = 0.9594940762087736
+Cluster analysis for exp:5 and pred:9
+exp. accuracy = 0.3886743886743887
+pred. miss = 0.9516490553954531
+Cluster analysis for exp:4 and pred:9
+exp. accuracy = 0.3827956989247312
+pred. miss = 0.9715017611271214
+Cluster analysis for exp:1 and pred:9
+exp. accuracy = 0.3992673992673993
+pred. miss = 0.9825488312520013
+Cluster analysis for exp:7 and pred:9
+exp. accuracy = 0.398876404494382
+pred. miss = 0.9772654498879283
+>>>>> Prediction Cluster:11
+Cluster analysis for exp:999 and pred:11
+exp. accuracy = 0.45347394540942926
+pred. miss = 0.8799277266754271
+Cluster analysis for exp:11 and pred:11
+exp. accuracy = 0.4017857142857143
+pred. miss = 0.9113009198423128
+Cluster analysis for exp:99 and pred:11
+exp. accuracy = 0.41634522661523626
+pred. miss = 0.7163272010512484
+Cluster analysis for exp:6 and pred:11
+exp. accuracy = 0.4078751857355126
+pred. miss = 0.9098226018396847
+Cluster analysis for exp:9 and pred:11
+exp. accuracy = 0.4153846153846154
+pred. miss = 0.8625164257555847
+Cluster analysis for exp:3 and pred:11
+exp. accuracy = 0.42037586547972305
+pred. miss = 0.9301905387647832
+Cluster analysis for exp:10 and pred:11
+exp. accuracy = 0.43597560975609756
+pred. miss = 0.9765111695137977
+Cluster analysis for exp:8 and pred:11
+exp. accuracy = 0.42088091353996737
+pred. miss = 0.9576215505913273
+Cluster analysis for exp:2 and pred:11
+exp. accuracy = 0.3639291465378422
+pred. miss = 0.9628777923784494
+Cluster analysis for exp:5 and pred:11
+exp. accuracy = 0.3642213642213642
+pred. miss = 0.953515111695138
+Cluster analysis for exp:4 and pred:11
+exp. accuracy = 0.33548387096774196
+pred. miss = 0.9743758212877792
+Cluster analysis for exp:1 and pred:11
+exp. accuracy = 0.358974358974359
+pred. miss = 0.9839027595269383
+Cluster analysis for exp:7 and pred:11
+exp. accuracy = 0.4803370786516854
+pred. miss = 0.9719119579500657
+>>>>> Prediction Cluster:4
+Cluster analysis for exp:999 and pred:4
+exp. accuracy = 0.017990074441687345
+pred. miss = 0.952922077922078
+Cluster analysis for exp:11 and pred:4
+exp. accuracy = 0.07142857142857142
+pred. miss = 0.8441558441558441
+Cluster analysis for exp:99 and pred:4
+exp. accuracy = 0.026036644165863067
+pred. miss = 0.8246753246753247
+Cluster analysis for exp:6 and pred:4
+exp. accuracy = 0.08023774145616643
+pred. miss = 0.8246753246753247
+Cluster analysis for exp:9 and pred:4
+exp. accuracy = 0.05161290322580645
+pred. miss = 0.8311688311688312
+Cluster analysis for exp:3 and pred:4
+exp. accuracy = 0.036597428288822946
+pred. miss = 0.939935064935065
+Cluster analysis for exp:10 and pred:4
+exp. accuracy = 0.04878048780487805
+pred. miss = 0.974025974025974
+Cluster analysis for exp:8 and pred:4
+exp. accuracy = 0.04241435562805873
+pred. miss = 0.9577922077922078
+Cluster analysis for exp:2 and pred:4
+exp. accuracy = 0.01932367149758454
+pred. miss = 0.9805194805194806
+Cluster analysis for exp:5 and pred:4
+exp. accuracy = 0.07207207207207207
+pred. miss = 0.9090909090909091
+Cluster analysis for exp:4 and pred:4
+exp. accuracy = 0.03870967741935484
+pred. miss = 0.9707792207792207
+Cluster analysis for exp:1 and pred:4
+exp. accuracy = 0.02197802197802198
+pred. miss = 0.9902597402597403
+Cluster analysis for exp:7 and pred:4
+exp. accuracy = 0.03932584269662921
+pred. miss = 0.9772727272727273
+>>>>> Prediction Cluster:10
+Cluster analysis for exp:999 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:10
+exp. accuracy = 0.002976190476190476
+pred. miss = 0.6
+Cluster analysis for exp:99 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:6 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:9 and pred:10
+exp. accuracy = 0.0009925558312655087
+pred. miss = 0.8
+Cluster analysis for exp:3 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:10 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:10
+exp. accuracy = 0.0065252854812398045
+pred. miss = 0.6
+Cluster analysis for exp:2 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:5 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:4 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:1 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:7 and pred:10
+exp. accuracy = 0.0
+pred. miss = 1.0
+>>>>> Prediction Cluster:2
+Cluster analysis for exp:999 and pred:2
+exp. accuracy = 0.017369727047146403
+pred. miss = 0.9682179341657208
+Cluster analysis for exp:11 and pred:2
+exp. accuracy = 0.04389880952380952
+pred. miss = 0.9330306469920545
+Cluster analysis for exp:99 and pred:2
+exp. accuracy = 0.06557377049180328
+pred. miss = 0.6912599318955732
+Cluster analysis for exp:6 and pred:2
+exp. accuracy = 0.06686478454680535
+pred. miss = 0.8978433598183881
+Cluster analysis for exp:9 and pred:2
+exp. accuracy = 0.0511166253101737
+pred. miss = 0.8830874006810443
+Cluster analysis for exp:3 and pred:2
+exp. accuracy = 0.09891196834817013
+pred. miss = 0.8864926220204313
+Cluster analysis for exp:10 and pred:2
+exp. accuracy = 0.021341463414634148
+pred. miss = 0.9920544835414302
+Cluster analysis for exp:8 and pred:2
+exp. accuracy = 0.048939641109298535
+pred. miss = 0.9659477866061293
+Cluster analysis for exp:2 and pred:2
+exp. accuracy = 0.10950080515297907
+pred. miss = 0.9228149829738933
+Cluster analysis for exp:5 and pred:2
+exp. accuracy = 0.07335907335907337
+pred. miss = 0.9353007945516458
+Cluster analysis for exp:4 and pred:2
+exp. accuracy = 0.0967741935483871
+pred. miss = 0.9489216799091941
+Cluster analysis for exp:1 and pred:2
+exp. accuracy = 0.08791208791208792
+pred. miss = 0.9727582292849035
+Cluster analysis for exp:7 and pred:2
+exp. accuracy = 0.042134831460674156
+pred. miss = 0.9829738933030647
+>>>>> Prediction Cluster:8
+Cluster analysis for exp:999 and pred:8
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:8
+exp. accuracy = 0.00818452380952381
+pred. miss = 0.9581749049429658
+Cluster analysis for exp:99 and pred:8
+exp. accuracy = 0.01518804243008679
+pred. miss = 0.7604562737642585
+Cluster analysis for exp:6 and pred:8
+exp. accuracy = 0.017087667161961365
+pred. miss = 0.9125475285171103
+Cluster analysis for exp:9 and pred:8
+exp. accuracy = 0.0064516129032258064
+pred. miss = 0.9505703422053232
+Cluster analysis for exp:3 and pred:8
+exp. accuracy = 0.018793273986152326
+pred. miss = 0.9277566539923955
+Cluster analysis for exp:10 and pred:8
+exp. accuracy = 0.009146341463414634
+pred. miss = 0.9885931558935361
+Cluster analysis for exp:8 and pred:8
+exp. accuracy = 0.01957585644371941
+pred. miss = 0.9543726235741445
+Cluster analysis for exp:2 and pred:8
+exp. accuracy = 0.0644122383252818
+pred. miss = 0.8479087452471483
+Cluster analysis for exp:5 and pred:8
+exp. accuracy = 0.05019305019305019
+pred. miss = 0.8517110266159695
+Cluster analysis for exp:4 and pred:8
+exp. accuracy = 0.06666666666666667
+pred. miss = 0.8821292775665399
+Cluster analysis for exp:1 and pred:8
+exp. accuracy = 0.054945054945054944
+pred. miss = 0.9429657794676806
+Cluster analysis for exp:7 and pred:8
+exp. accuracy = 0.0
+pred. miss = 1.0
+>>>>> Prediction Cluster:3
+Cluster analysis for exp:999 and pred:3
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:3
+exp. accuracy = 0.029017857142857144
+pred. miss = 0.61
+Cluster analysis for exp:99 and pred:3
+exp. accuracy = 0.0012054001928640309
+pred. miss = 0.95
+Cluster analysis for exp:6 and pred:3
+exp. accuracy = 0.006686478454680535
+pred. miss = 0.91
+Cluster analysis for exp:9 and pred:3
+exp. accuracy = 0.020347394540942927
+pred. miss = 0.59
+Cluster analysis for exp:3 and pred:3
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:10 and pred:3
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:3
+exp. accuracy = 0.0032626427406199023
+pred. miss = 0.98
+Cluster analysis for exp:2 and pred:3
+exp. accuracy = 0.001610305958132045
+pred. miss = 0.99
+Cluster analysis for exp:5 and pred:3
+exp. accuracy = 0.001287001287001287
+pred. miss = 0.99
+Cluster analysis for exp:4 and pred:3
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:1 and pred:3
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:7 and pred:3
+exp. accuracy = 0.008426966292134831
+pred. miss = 0.97
+>>>>> Prediction Cluster:0
+Cluster analysis for exp:999 and pred:0
+exp. accuracy = 0.003101736972704715
+pred. miss = 0.9764150943396226
+Cluster analysis for exp:11 and pred:0
+exp. accuracy = 0.010416666666666666
+pred. miss = 0.9339622641509434
+Cluster analysis for exp:99 and pred:0
+exp. accuracy = 0.01518804243008679
+pred. miss = 0.7028301886792453
+Cluster analysis for exp:6 and pred:0
+exp. accuracy = 0.011144130757800892
+pred. miss = 0.9292452830188679
+Cluster analysis for exp:9 and pred:0
+exp. accuracy = 0.012903225806451613
+pred. miss = 0.8773584905660378
+Cluster analysis for exp:3 and pred:0
+exp. accuracy = 0.020771513353115726
+pred. miss = 0.9009433962264151
+Cluster analysis for exp:10 and pred:0
+exp. accuracy = 0.03353658536585366
+pred. miss = 0.9481132075471698
+Cluster analysis for exp:8 and pred:0
+exp. accuracy = 0.009787928221859706
+pred. miss = 0.9716981132075472
+Cluster analysis for exp:2 and pred:0
+exp. accuracy = 0.02576489533011272
+pred. miss = 0.9245283018867925
+Cluster analysis for exp:5 and pred:0
+exp. accuracy = 0.023166023166023165
+pred. miss = 0.9150943396226415
+Cluster analysis for exp:4 and pred:0
+exp. accuracy = 0.03655913978494624
+pred. miss = 0.9198113207547169
+Cluster analysis for exp:1 and pred:0
+exp. accuracy = 0.02564102564102564
+pred. miss = 0.9669811320754716
+Cluster analysis for exp:7 and pred:0
+exp. accuracy = 0.019662921348314606
+pred. miss = 0.9669811320754716
+>>>>> Prediction Cluster:1
+Cluster analysis for exp:999 and pred:1
+exp. accuracy = 0.0006203473945409429
+pred. miss = 0.9917355371900827
+Cluster analysis for exp:11 and pred:1
+exp. accuracy = 0.009672619047619048
+pred. miss = 0.8925619834710744
+Cluster analysis for exp:99 and pred:1
+exp. accuracy = 0.01133076181292189
+pred. miss = 0.6115702479338843
+Cluster analysis for exp:6 and pred:1
+exp. accuracy = 0.015601783060921248
+pred. miss = 0.8264462809917356
+Cluster analysis for exp:9 and pred:1
+exp. accuracy = 0.0024813895781637717
+pred. miss = 0.9586776859504132
+Cluster analysis for exp:3 and pred:1
+exp. accuracy = 0.00791295746785361
+pred. miss = 0.9338842975206612
+Cluster analysis for exp:10 and pred:1
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:1
+exp. accuracy = 0.0065252854812398045
+pred. miss = 0.9669421487603306
+Cluster analysis for exp:2 and pred:1
+exp. accuracy = 0.004830917874396135
+pred. miss = 0.9752066115702479
+Cluster analysis for exp:5 and pred:1
+exp. accuracy = 0.01287001287001287
+pred. miss = 0.9173553719008265
+Cluster analysis for exp:4 and pred:1
+exp. accuracy = 0.021505376344086023
+pred. miss = 0.9173553719008265
+Cluster analysis for exp:1 and pred:1
+exp. accuracy = 0.04395604395604396
+pred. miss = 0.9008264462809917
+Cluster analysis for exp:7 and pred:1
+exp. accuracy = 0.0028089887640449437
+pred. miss = 0.9917355371900827
+>>>>> Prediction Cluster:12
+Cluster analysis for exp:999 and pred:12
+exp. accuracy = 0.005583126550868486
+pred. miss = 0.9415584415584416
+Cluster analysis for exp:11 and pred:12
+exp. accuracy = 0.01711309523809524
+pred. miss = 0.8506493506493507
+Cluster analysis for exp:99 and pred:12
+exp. accuracy = 0.007232401157184185
+pred. miss = 0.8051948051948052
+Cluster analysis for exp:6 and pred:12
+exp. accuracy = 0.018573551263001486
+pred. miss = 0.8376623376623377
+Cluster analysis for exp:9 and pred:12
+exp. accuracy = 0.017369727047146403
+pred. miss = 0.7727272727272727
+Cluster analysis for exp:3 and pred:12
+exp. accuracy = 0.006923837784371909
+pred. miss = 0.9545454545454546
+Cluster analysis for exp:10 and pred:12
+exp. accuracy = 0.003048780487804878
+pred. miss = 0.9935064935064936
+Cluster analysis for exp:8 and pred:12
+exp. accuracy = 0.011419249592169658
+pred. miss = 0.9545454545454546
+Cluster analysis for exp:2 and pred:12
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:5 and pred:12
+exp. accuracy = 0.014157014157014158
+pred. miss = 0.9285714285714286
+Cluster analysis for exp:4 and pred:12
+exp. accuracy = 0.01935483870967742
+pred. miss = 0.9415584415584416
+Cluster analysis for exp:1 and pred:12
+exp. accuracy = 0.003663003663003663
+pred. miss = 0.9935064935064936
+Cluster analysis for exp:7 and pred:12
+exp. accuracy = 0.008426966292134831
+pred. miss = 0.9805194805194806
+>>>>> Prediction Cluster:5
+Cluster analysis for exp:999 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:5
+exp. accuracy = 0.003720238095238095
+pred. miss = 0.4444444444444444
+Cluster analysis for exp:99 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:6 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:9 and pred:5
+exp. accuracy = 0.0009925558312655087
+pred. miss = 0.7777777777777778
+Cluster analysis for exp:3 and pred:5
+exp. accuracy = 0.0019782393669634025
+pred. miss = 0.7777777777777778
+Cluster analysis for exp:10 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:2 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:5 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:4 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:1 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:7 and pred:5
+exp. accuracy = 0.0
+pred. miss = 1.0
+>>>>> Prediction Cluster:6
+Cluster analysis for exp:999 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:6
+exp. accuracy = 0.001488095238095238
+pred. miss = 0.8461538461538461
+Cluster analysis for exp:99 and pred:6
+exp. accuracy = 0.002651880424300868
+pred. miss = 0.15384615384615385
+Cluster analysis for exp:6 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:9 and pred:6
+exp. accuracy = 0.0004962779156327543
+pred. miss = 0.9230769230769231
+Cluster analysis for exp:3 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:10 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:2 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:5 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:4 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:1 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:7 and pred:6
+exp. accuracy = 0.0
+pred. miss = 1.0
+>>>>> Prediction Cluster:7
+Cluster analysis for exp:999 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:11 and pred:7
+exp. accuracy = 0.000744047619047619
+pred. miss = 0.875
+Cluster analysis for exp:99 and pred:7
+exp. accuracy = 0.00048216007714561236
+pred. miss = 0.75
+Cluster analysis for exp:6 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:9 and pred:7
+exp. accuracy = 0.0004962779156327543
+pred. miss = 0.875
+Cluster analysis for exp:3 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:10 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:8 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:2 and pred:7
+exp. accuracy = 0.00322061191626409
+pred. miss = 0.75
+Cluster analysis for exp:5 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
+Cluster analysis for exp:4 and pred:7
+exp. accuracy = 0.002150537634408602
+pred. miss = 0.875
+Cluster analysis for exp:1 and pred:7
+exp. accuracy = 0.003663003663003663
+pred. miss = 0.875
+Cluster analysis for exp:7 and pred:7
+exp. accuracy = 0.0
+pred. miss = 1.0
