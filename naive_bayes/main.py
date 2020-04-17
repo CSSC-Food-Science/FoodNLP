@@ -8,6 +8,11 @@
    your final submission.
    Brown CS142, Spring 2020
 """
+from string import punctuation
+import nltk
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 import numpy as np
 import pandas as pd
@@ -57,10 +62,27 @@ from models import NaiveBayes
 
 #     return X_train, X_val, y_train, y_val
 
+nums = set(["0","1","2","3","4","5","6","7","8","9"])
+print(punctuation)
+
+keywords = set() #"oz")
+stpwrds = stopwords.words('english')
+clean_vocab = False
+def clean(text):
+    text = text.lower()
+    no_punct = "".join([char for char in text if char not in punctuation and char not in nums])
+    words = no_punct.split()
+    good_words = [word for word in words if word not in stpwrds]
+    good_words = [word for word in good_words if word not in keywords]
+    lemmatizer = WordNetLemmatizer()
+    good_words = [lemmatizer.lemmatize(word) for word in good_words if word != None and len(word) > 0]
+    cleaned = [word for word in good_words if len(word) > 1]
+    return cleaned
 
 def get_vocab(filename):
-    f = open(filename) # use words.txt   
+    f = open(filename) # use words.txt
     data = f.readlines()
+
 
     vocab = []
     phrase_to_label = {}
@@ -68,15 +90,27 @@ def get_vocab(filename):
 
     for line in data:
         split_line = line.rstrip().split('|')
-        words = split_line[1].split(' ')
-        
-        phrase_to_label[split_line[1]] = split_line[0]
-        phrase_to_words[split_line[1]] = words
+        text = split_line[1]
 
-        for word in words:
-            if word not in vocab:
-                vocab.append(word)
-
+        if clean_vocab:
+            clean_words = clean(text)
+            new_label = " ".join(clean_words)
+            if (clean_words == None or len(clean_words) < 1):
+                continue
+            phrase_to_label[new_label] = split_line[0]
+            phrase_to_words[new_label] = clean_words
+            for word in clean_words:
+                if word not in vocab:
+                    vocab.append(word)
+        else:
+            words = text.split(" ")
+            w = split_line[1]
+            label = split_line[0]
+            phrase_to_label[w] = label
+            phrase_to_words[w] = words
+            for word in words:
+                if word not in vocab:
+                    vocab.append(word)
 
     f.close()
 
@@ -99,15 +133,29 @@ def build_train_and_test(vocab, phrase_to_label, phrase_to_words):
         test[i] = phrase_to_label[key]
 
         i += 1
-    print (train.shape)
-    print (test.shape)
+
+    print('EXAMPLES: ',num_examples)
+    print('VOCAB: ',num_words)
+    #  y[:350, :].reshape([350,]), y[351:526, :].reshape([175,])
     X_train = train[:12000, :]
     X_val = train[:12000, :]
-
+    print('X_TRAIN SHAPE:',X_train.shape)
+    print('X_VAL SHAPE:',X_val.shape)
     y_train = test[:12000].reshape([12000,])
-    y_val = test[12000:14721].reshape([2721,])
+    print('Y_TRAIN SHAPE:',y_train.shape)
+    if clean_vocab:
+        y_val = test[12000:14721].reshape([2163,])
+        print('Y_VAL SHAPE:',y_val.shape)
+        return X_train, X_val, y_train, y_val
+    else:
+        y_val = test[12000:14721].reshape([2721,])
+        print('Y_VAL SHAPE:',y_val.shape)
+        return X_train, X_val, y_train, y_val
+
+
+
     # X_train, X_val, y_train, y_val = train[:12000, :], train[12000:14721, :], test[:12000, :].reshape([12000,]), test[12000:14721, :].reshape([2721,])
-    return X_train, X_val, y_train, y_val
+
 
 
 
@@ -119,7 +167,7 @@ def main():
     X_train, X_val, y_train, y_val = build_train_and_test(vocab, phrase_to_label, phrase_to_words)
     # X_train, X_val, y_train, y_val, = get_credit()
 
-    model = NaiveBayes(2)
+    model = NaiveBayes(13)
 
     model.train(X_train, y_train)
 

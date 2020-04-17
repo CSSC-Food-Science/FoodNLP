@@ -24,34 +24,39 @@ class NaiveBayes(object):
                 2) a 1D numpy array of the priors distribution
         """
         # TODO
-
+        print("Sample data: ")
+        print(X_train[:10])
         # find priors distribution
         class_occ = {}
+
         # counts number of occurrences for each class
         for label in y_train:
             if label not in class_occ:
-                class_occ[label] = 1 
+                class_occ[label] = 1
             else:
                 class_occ[label] += 1
 
+        for occ in class_occ:
+            print("Label: ", occ, " with count ",class_occ[occ], " out of ", y_train.shape)
+
         num_examples = X_train.shape[0]
         # add number of classes to number of examples for smoothing
-        denominator = num_examples + self.n_classes 
+        denominator = num_examples + self.n_classes
 
         priors_dist = np.zeros((self.n_classes))
 
         for c in range(self.n_classes):
             label = self.labels[c]
             priors_dist[c] = (class_occ[label] + 1) / denominator # add 1 to numerator for smoothing
-        
+
         # find attribute distribution
         num_atts = X_train.shape[1]
         att_dist = np.zeros((num_atts, self.n_classes))
-        
+
         # for each attribute/feature
-        for i in range(num_atts): 
+        for i in range(num_atts):
             att_occ_per_class = {}
-            
+
             # initialize dict for number of times attribute appeares in the classes
             for c in self.labels:
                 att_occ_per_class[c] = 0
@@ -62,7 +67,7 @@ class NaiveBayes(object):
                 if X_train[j][i] == 1:
                     att_occ_per_class[y_train[j]] += 1
 
-            for k in range(self.n_classes): 
+            for k in range(self.n_classes):
                 label = self.labels[k]
                 att_dist[i][k] = (att_occ_per_class[label] + 1) / (class_occ[label] + 2)
 
@@ -87,19 +92,19 @@ class NaiveBayes(object):
             att_dist = np.copy(self.att_dist)
             # go through attributes in each input
             for j in range(len(inputs[i])):
-                # if encountering a missing feature in example, 
-                # subtract prob from 1 in that row in the attribute distribution     
-                if inputs[i][j] == 0:  
+                # if encountering a missing feature in example,
+                # subtract prob from 1 in that row in the attribute distribution
+                if inputs[i][j] == 0:
                     att_dist[j] = 1 - att_dist[j]
 
             sums = []
             # find sum of logs down each column
             for col in range(self.n_classes):
-                sum = 0 
+                sum = 0
                 for row in range(len(att_dist)):
                     sum += np.log(att_dist[row][col])
                 sums.append(np.exp(sum))
-     
+
             # multiply column sum with prior distribution and pick biggest
             max_val = -float('inf')
             max_index = 0
@@ -110,10 +115,10 @@ class NaiveBayes(object):
                     max_index = k
 
             predictions[i] = max_index
-        
+
         return predictions
 
-        
+
 
     def accuracy(self, X_test, y_test):
         """ Outputs the accuracy of the trained model on a given dataset (data).
